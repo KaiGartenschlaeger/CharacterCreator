@@ -1,0 +1,67 @@
+[Info]
+Titel = Character Editor
+Version = 2.06
+Date = 1178466720
+GUID = {B2D01D17-7C9C-434E-BBC0-94BD82F29B24}
+Author = Kai Gartenschläger
+EMail = mail@kaispage.de
+Web = http://www.kaispage.de
+Readme = 
+Licence = C:\Programme\PureBasic\Projekte\CharacterEditor\Source\Lizens.rtf
+[File]
+ProgDir = C:\Dokumente und Einstellungen\Kai Gartenschläger\Desktop\Setup\
+ProgExe = CharEdit.exe
+IconID = 0
+[Task]
+Desktop = 1
+StartProg = 1
+StartMenu = 1
+UserTask = 1
+SpecialTask = 0
+ProgParameter = 
+Mutex = 0
+MutexString = 
+Reboot = 0
+Script = 0
+ScriptFile = 
+ScriptUI = 0
+ScriptUIFile = 
+NoUnistall = 0
+NoDelAll = 0
+[StartMenue]
+DefaultDir = Character Editor
+ProgLink = Character Editor
+OptHelp = 0
+Help = 
+OptURL = 1
+URL = http://www.kaispage.de
+OptExe = 1
+Exe = Readme.txt
+Unistall = 1
+[Settings]
+Language = deutsch.ins|english.ins|
+Bitmap = C:\Programme\PureBasic\Ressourcen\Grafiken\SetupLogo 130x300.bmp
+HeaderIcon = 
+NoCopy = 0
+NoCopyExt = 
+SetupExe = CharEdit_Setup_
+DefaultDir = CharacterEditor
+SetupDir = C:\Dokumente und Einstellungen\Kai Gartenschläger\Desktop\
+Archiver = 1
+ZipFile = 0
+[Upload]
+Setup = 0
+SetupFTP = 
+ZIP = 0
+ZipFTP = 
+VIF = 0
+VifFILE = 
+VifFTP = 
+HTML = 0
+HtmlFiles = 0
+PAD = 0
+PadSRC = 
+PadFTP = 
+[UserTask]
+Number = 1
+Task1 = 10|CharEdit.exe|chs|CharacterEditor Character|0|CharEdit.exe|0
